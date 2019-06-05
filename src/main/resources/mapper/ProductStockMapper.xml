@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.hong.project.mapper.ProductStockMapper">
+  <resultMap id="BaseResultMap" type="pers.hong.project.entity.ProductStock">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="stock_01" jdbcType="INTEGER" property="stock01" />
+    <result column="stock_02" jdbcType="INTEGER" property="stock02" />
+    <result column="stock_03" jdbcType="INTEGER" property="stock03" />
+    <result column="stock_04" jdbcType="INTEGER" property="stock04" />
+    <result column="stock_05" jdbcType="INTEGER" property="stock05" />
+    <result column="stock_06" jdbcType="INTEGER" property="stock06" />
+    <result column="stock_07" jdbcType="INTEGER" property="stock07" />
+    <result column="stock_08" jdbcType="INTEGER" property="stock08" />
+    <result column="stock_09" jdbcType="INTEGER" property="stock09" />
+    <result column="stock_10" jdbcType="INTEGER" property="stock10" />
+    <result column="stock_segment" jdbcType="INTEGER" property="stockSegment" />
+  </resultMap>
+</mapper>
