@@ -20,7 +20,7 @@ public class ProductStockController {
 
     @PostMapping("reduce")
     public Result reduceProductStock() {
-        productStockService.reduceProductStock(1,2);
+        productStockService.reduceProductStock(1,100);
         return ResultGenerator.genSuccessResult();
     }
 
